@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Tab/Navbar Container-->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:tabBackground="@color/navbar"
+        app:tabIconTint="@null"
+        app:tabIndicatorColor="#80AA72"
+        app:tabMode="fixed"
+        app:tabGravity="fill"/>
+
+    <!--Display Screens view pager-->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/screenDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navbar"/>
+
+</RelativeLayout>

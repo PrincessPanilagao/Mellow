@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mellow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sc_context">Button for Self Confidence</string>
+    <string name="un_context">Button for Unwind</string>
+    <string name="pom_context">Button for Peace of Mind</string>
+    <string name="le_context">Button for Life Expectancy</string>
+</resources>
